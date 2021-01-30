@@ -4,7 +4,7 @@ from Hello_Kevin_Ferreras import hello
 class HelloTest(unittest.TestCase):
 
     def test_hello(self) -> None:
-        ''' Tests that the hello fundtion returns the message "Hello World!'''
+        ''' Tests that the hello function returns the message "Hello World!" '''
 
         message: str = hello()
         expected_message: str = "Hello World!"
